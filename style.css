@@ -1,0 +1,140 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  height: 11vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  background-color: #ff69b4;
+}
+nav img {
+  width: 6vw;
+  height: 9vh;
+}
+nav .Logo {
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Menu {
+  width: 40vw;
+  display: flex;
+  align-items: center;
+  margin-right: 6rem;
+}
+.Menu li {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+main {
+  width: 100%;
+}
+
+.Container1 {
+  background-color: #ffd9ec;
+  width: 100%;
+  height: 53vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.Container1 #text1 {
+  width: 47vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Container1 img {
+  width: 25vw;
+  height: 50vh;
+}
+
+.Container2 {
+  background-color: #ff69b4;
+  align-items: center;
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+.Container2 img {
+  width: 30vw;
+  height: 37vh;
+}
+.Container2 #text2 {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Container3 {
+  background-color: #ffd9ec;
+  align-items: center;
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.Container3 .indicacao {
+  width: 20vw;
+  height: 38vh;
+}
+
+footer {
+  background-color: #ff69b4;
+  width: 100%;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer .redes img {
+  width: 4vw;
+  height: 8vh;
+}
+footer #text3 {
+  text-align: center;
+}
+footer #laço {
+  width: 8vw;
+  height: 20vh;
+}
+
+#text1 h2 {
+  font-size: 1.9vw;
+}
+
+#text2 h2 {
+  font-size: 1.8vw;
+  color: white;
+}
+
+#text3 p {
+  font-size: 1.2vw;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+nav p {
+  color: white;
+  font-size: 1.4vw;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.Menu a {
+  text-decoration: none;
+  font-size: 1.3vw;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
